@@ -1,0 +1,23 @@
+{% load static %}
+<aside id="colorlib-aside" role="complementary" class="border js-fullheight">
+            <div class="text-center">
+                <div class="author-img" style="background-image: url({% static 'images/about.jpg'%});"></div>
+                <h1 id="colorlib-logo"><a href="{% url 'krohalev:home' %}">Александр Крохалев</a></h1>
+                <span class="position">Россия, г. Екатеринбург.</span>
+            </div>
+            <nav id="colorlib-main-menu" role="navigation" class="navbar">
+                <div id="navbar" class="collapse">
+                    <ul>
+                        <li class="active"><a href="#" data-nav-section="home">Главная</a></li>
+                        <li><a href="#" data-nav-section="about">Обо мне</a></li>
+                        <li><a href="#" data-nav-section="skills">Навыки программирования</a></li>
+                        <li><a href="#" data-nav-section="education">Образование</a></li>
+                        <li><a href="#" data-nav-section="experience">Опыт</a></li>
+                        <li><a href="#" data-nav-section="work">Примеры работ</a></li>
+                        <li><a href="#" data-nav-section="contact">Контакты</a></li>
+                    </ul>
+                </div>
+            </nav>
+
+
+        </aside>
